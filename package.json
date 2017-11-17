@@ -1,0 +1,53 @@
+{
+  "name": "rubyiks_cube",
+  "version": "1.0.0",
+  "description": "Rubyik's Cube",
+  "main": "src/index.js",
+  "repository": "https://github.com/wingrunr21/rubyiks_cube",
+  "author": "Stafford Brunk <stafford.brunk@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --colors",
+    "start": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "cross-env": "^5.1.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-guild": "https://github.com/GuildEducationInc/eslint-config-guild.git",
+    "exports-loader": "^0.6.4",
+    "flow-bin": "^0.59.0",
+    "html-webpack-plugin": "^2.30.1",
+    "imports-loader": "^0.7.1",
+    "react-hot-loader": "^3.1.2",
+    "redux-devtools-extension": "^2.13.2",
+    "webpack": "^3.8.1",
+    "webpack-blocks": "^1.0.0-rc.2",
+    "webpack-blocks-utils": "^2.0.0-alpha.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "cubejs": "^1.0.3",
+    "jquery": "^3.2.1",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-redux": "^5.0.6",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "redux-websocket": "^0.2.0-dev.7",
+    "roofpig": "https://github.com/larspetrus/Roofpig.git"
+  }
+}

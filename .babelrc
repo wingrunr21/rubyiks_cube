@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "modules": false,
+      "useBuiltIns": true
+    }]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-async-to-generator"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    },
+    "production": {
+      "presets": ["react-optimize"]
+    }
+  }
+}
